@@ -1,0 +1,6 @@
+{
+  "name": "Silicon Noir — Sahil Chhabra VLSI Portfolio",
+  "description": "Interactive VLSI & Analog Mixed-Signal IC Design Portfolio of Sahil Chhabra featuring 3D silicon inspection, Cadence Virtuoso projects, and IEEE research.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
