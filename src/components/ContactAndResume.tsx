@@ -130,7 +130,7 @@ export const ContactAndResume: React.FC<ContactAndResumeProps> = ({ onOpenResume
 
           <div className="space-y-2.5 pt-4 border-t border-slate-900">
             <a
-              href={`${import.meta.env.BASE_URL}SAHIL%20CHHABRA.pdf`}
+              href={`${import.meta.env.BASE_URL}Sahil-Chhabra-Resume.pdf`}
               download="Sahil-Chhabra-Resume.pdf"
               className="w-full py-3 px-4 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-sm font-bold flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-cyan-400/20"
               title="Download official resume PDF"
@@ -140,7 +140,7 @@ export const ContactAndResume: React.FC<ContactAndResumeProps> = ({ onOpenResume
             </a>
 
             <a
-              href={`${import.meta.env.BASE_URL}SAHIL%20CHHABRA.pdf`}
+              href={`${import.meta.env.BASE_URL}Sahil-Chhabra-Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white flex items-center justify-center gap-2 transition-colors"
