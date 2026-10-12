@@ -139,13 +139,16 @@ export const ContactAndResume: React.FC<ContactAndResumeProps> = ({ onOpenResume
               <span>Download PDF Resume (Official)</span>
             </a>
 
-            <button
-              onClick={onOpenResumeModal}
+            <a
+              href={`${import.meta.env.BASE_URL}SAHIL%20CHHABRA.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white flex items-center justify-center gap-2 transition-colors"
+              title="View the uploaded official resume PDF"
             >
               <FileText className="w-4 h-4 text-cyan-400" />
-              <span>View Interactive Printable Resume</span>
-            </button>
+              <span>View Official PDF Resume</span>
+            </a>
 
             <a
               href={`mailto:${RESUME_DATA.personal.email}?subject=VLSI%20Engineering%20Opportunity%20-%20Sahil%20Chhabra`}
