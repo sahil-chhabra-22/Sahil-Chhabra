@@ -1,17 +1,14 @@
 import React from 'react';
 import { ArrowDown, Download, Eye, ExternalLink, Cpu, Sparkles, BookOpen, Layers, CheckCircle2, ChevronRight, Activity, Terminal, ShieldCheck, Zap } from 'lucide-react';
-import { downloadResumePdf } from '../utils/generateResumePdf';
 import { RESUME_DATA } from '../data/resumeData';
 
 interface HeroSectionProps {
   onExploreProjects: () => void;
-  onResumeClick: () => void;
   onContactClick: () => void;
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({
   onExploreProjects,
-  onResumeClick,
   onContactClick,
 }) => {
   return (
@@ -61,12 +58,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </button>
 
             <button
-              onClick={() => downloadResumePdf()}
+              onClick={onContactClick}
               className="px-6 py-3 text-sm font-semibold text-white bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 rounded-xl transition-all whitespace-nowrap flex items-center gap-2"
               title="Download official 2-page PDF resume"
             >
               <Download className="w-4 h-4 text-cyan-400" />
-              <span>Download PDF Resume</span>
+              <span>View Resume &amp; Download</span>
             </button>
 
             <button
