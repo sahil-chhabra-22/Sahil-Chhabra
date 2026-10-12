@@ -44,7 +44,7 @@ export default function App() {
       {/* Top Bar Navigation */}
       <Navbar
         onContactClick={() => scrollToSection('contact')}
-        onResumeClick={() => setIsResumeModalOpen(true)}
+        onResumeClick={() => scrollToSection('contact')}
       />
 
       {/* Main Content Area */}
@@ -52,7 +52,6 @@ export default function App() {
         {/* Hero Section */}
         <HeroSection
           onExploreProjects={() => scrollToSection('projects')}
-          onResumeClick={() => setIsResumeModalOpen(true)}
           onContactClick={() => scrollToSection('contact')}
         />
 
