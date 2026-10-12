@@ -53,8 +53,8 @@ export const RESUME_DATA = {
     institution: "Vivekananda Institute of Professional Studies – Technical Campus (VIPS-TC)",
     location: "Delhi, India",
     email: "sahilchhabra2712@gmail.com",
-    linkedin: "https://linkedin.com/in/sahilchhabra2712",
-    github: "https://github.com/sahilchhabra2712",
+    linkedin: "https://www.linkedin.com/in/sahil-chhabra-6ba9aa2b8",
+    github: "https://github.com/sahil-chhabra-22",
     status: "Seeking Both Off-Campus & On-Campus · Open to Internships & Job Opportunities",
     batch: "2024–2028",
     gpa: "8.5 / 10 (till 4th Semester)",
@@ -564,7 +564,7 @@ export const RESUME_DATA = {
       degree: "Class XII (Science Stream)",
       period: "2012 – 2024",
       score: "Scored 80%",
-      highlights: ["Physics, Mathematics, Chemistry, and Computer Science."]
+      highlights: ["Strong foundation in Physics, Mathematics, Chemistry and Computer Science."]
     }
   ],
 
