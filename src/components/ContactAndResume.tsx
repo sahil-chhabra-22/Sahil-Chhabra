@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Linkedin, Github, Download, Copy, Check, ExternalLink, Printer, FileText } from 'lucide-react';
 import { RESUME_DATA } from '../data/resumeData';
-import { downloadResumePdf } from '../utils/generateResumePdf';
 
 interface ContactAndResumeProps {
   onOpenResumeModal: () => void;
@@ -130,14 +129,15 @@ export const ContactAndResume: React.FC<ContactAndResumeProps> = ({ onOpenResume
           </div>
 
           <div className="space-y-2.5 pt-4 border-t border-slate-900">
-            <button
-              onClick={() => downloadResumePdf()}
+            <a
+              href={`${import.meta.env.BASE_URL}SAHIL%20CHHABRA.pdf`}
+              download="Sahil-Chhabra-Resume.pdf"
               className="w-full py-3 px-4 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-sm font-bold flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-cyan-400/20"
-              title="Download official 2-page PDF resume"
+              title="Download official resume PDF"
             >
               <Download className="w-4 h-4" />
               <span>Download PDF Resume (Official)</span>
-            </button>
+            </a>
 
             <button
               onClick={onOpenResumeModal}
