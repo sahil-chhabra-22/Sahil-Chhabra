@@ -561,10 +561,10 @@ export const RESUME_DATA = {
     },
     {
       institution: "Vishal Bharti Sr. Sec. School",
-      degree: "Class XII (Science Stream — Chemistry with Computer Science)",
+      degree: "Class XII (Science Stream)",
       period: "2012 – 2024",
       score: "Scored 80%",
-      highlights: ["Strong foundation in Physics, Mathematics, and Chemistry with Computer Science."]
+      highlights: ["Physics, Mathematics, Chemistry, and Computer Science."]
     }
   ],
 
