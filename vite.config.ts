@@ -7,7 +7,7 @@ export default defineConfig(() => {
   return {
     // IMPORTANT: Replace YOUR-REPOSITORY-NAME
     // with your actual GitHub repository name.
-    base: '/Sahil Chhabra/',
+    base: '/Sahil-Chhabra/',
 
     plugins: [react(), tailwindcss()],
 
